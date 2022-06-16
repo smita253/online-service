@@ -1,0 +1,8 @@
+create database orderdb;
+\c orderdb;
+
+create table order(orderId int primary key,amount float,billingDate Date, customer varchar(20), paymentMethod varchar(255));
+
+
+URL:
+http://localhost:8081/order/swagger-ui/index.html
